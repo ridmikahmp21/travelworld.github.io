@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(https://tse4.mm.bing.net/th?id=OIP.3REuDpfy5cEQZZqdDt0xVAHaEo&pid=Api&P=0);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    width: 100%;
+    height: 85px;
+    line-height: 75px;
+    padding: 0px 50px;
+    position: fixed;
+    background-image: linear-gradient(#491803, #130602);
+}
+
+nav .logo_name h3 {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav .logo_name h3 span {
+    font-size: 30px;
+    font-weight: bold;
+
+    color: rgb(168, 151, 132);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav ul {
+    float: right;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: #dbcec8;
+    transition: all o.8s ease-in-out;
+    cursor: pointer;
+
+}
+
+.body_content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    color: rgb(211, 199, 182);
+
+    padding-top: 450px;
+
+}
+
+
+
+.body_content p {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    ;
+    letter-spacing: 4px;
+    padding-top: 100px;
+    text-align: center;
+    font-style: italic;
+}
+
+.body_content h4 {
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    text-align: right;
+}
+
+
+
+.descrip-contactus {
+    text-align: center;
+}
+
+.name-contact>h2 {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(60, 37, 14);
+    background-color: rgb(183, 173, 160);
+    margin: 4px;
+    align-items: center;
+}
+
+.topc h1 {
+    text-align: center;
+    padding-bottom: 6px;
+    letter-spacing: 1px;
+}
+
+.topc p {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+.container-contact {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box {
+    background-color: rgb(220, 216, 212);
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 70%;
+    padding: 40px 60px;
+    background: #4c301e;
+
+}
+
+
+.contact-right {
+    flex-basis: 30%;
+    padding: 40px;
+    background: #f4f1f0;
+    color: rgb(58, 32, 5);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.container-contact p {
+    margin-bottom: 40px;
+}
+
+.input-row {
+
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 15px;
+    background-color: #dbcec8;
+    font-size: 15px;
+}
+
+input:hover {
+    box-shadow: 0px 5px 15px 0px rgba(240, 227, 219, 0.3)
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #dbcec8;
+    font-size: 15px;
+}
+
+textarea:hover {
+    box-shadow: 0px 5px 15px 0px rgba(250, 233, 209, 0.3);
+
+}
+
+label {
+    margin-top: 20px;
+    margin-bottom: 6px;
+    display: block;
+    color: #f5f1ee;
+    font-weight: bold;
+}
+
+button {
+    background: #dbcec8;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #37220c;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(56, 55, 60, 0.3);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:hover {
+    background: rgb(248, 233, 211);
+    font-weight: bolder;
+    color: #120702;
+    box-shadow: 0px 5px 15px 0px rgba(43, 42, 48, 0.5);
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.contact-left h3 {
+    color: #f9f2f0;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.contact-right h3 {
+
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right>div {
+    text-align: center;
+}
+
+.contact-right p {
+    font-size: 15px;
+
+}
+
+.contact-right h4 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.contact-right img {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin: 0 8px;
+
+    background-size: cover;
+}
+
+
+
+.footer {
+    padding: 40px 0;
+    background-image: linear-gradient(#491803, #130602);
+    text-align: center;
+    font-size: 400;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(68, 41, 6);
+}
+
+.footer .social img {
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+    background-size: cover;
+}
+
+.footer .social img:hover {
+    transition: all o.8s ease-in-out;
+    opacity: 0.9;
+    box-shadow: 0px 5px 5px 0px rgba(10, 10, 10, 0.5);
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer ul a {
+    color: inherit;
+    opacity: 0.8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: #958c88;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul a:hover {
+    opacity: 1;
+    color: rgb(221, 214, 214);
+    text-decoration: underline; 
+   
+}
+
+
+.footer .copyright {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(106, 106, 106);
+}
